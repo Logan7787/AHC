@@ -82,7 +82,7 @@ export const Header: React.FC = () => {
               </Link>
 
               {/* Service Offered Dropdown */}
-              <div className="relative group/drop">
+              <div className="relative group">
                 <button
                   onClick={() => toggleDropdown('services')}
                   className={`flex items-center gap-1 text-sm font-semibold transition-colors hover:text-primary-600 outline-none ${
@@ -92,9 +92,15 @@ export const Header: React.FC = () => {
                   aria-haspopup="true"
                 >
                   Service Offered
-                  <ChevronDown className="h-4 w-4 transition-transform group-hover/drop:rotate-180" />
+                  <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180" />
                 </button>
-                <div className="absolute left-0 top-full pt-2 w-64 origin-top-left opacity-0 translate-y-2 pointer-events-none group-hover/drop:opacity-100 group-hover/drop:translate-y-0 group-hover/drop:pointer-events-auto transition-all duration-200 z-[100]">
+                <div
+                  className={`absolute left-0 top-full pt-2 w-64 origin-top-left transition-all duration-200 z-[100] ${
+                    activeDropdown === 'services'
+                      ? 'opacity-100 translate-y-0 pointer-events-auto'
+                      : 'opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto'
+                  }`}
+                >
                   <div className="rounded-2xl border border-warm-100 bg-white p-2 shadow-xl">
                     {servicesLinks.map((link) => (
                       <Link
@@ -112,7 +118,7 @@ export const Header: React.FC = () => {
               </div>
 
               {/* Our Team Dropdown */}
-              <div className="relative group/drop">
+              <div className="relative group">
                 <button
                   onClick={() => toggleDropdown('team')}
                   className={`flex items-center gap-1 text-sm font-semibold transition-colors hover:text-primary-600 outline-none ${
@@ -122,9 +128,15 @@ export const Header: React.FC = () => {
                   aria-haspopup="true"
                 >
                   Our Team
-                  <ChevronDown className="h-4 w-4 transition-transform group-hover/drop:rotate-180" />
+                  <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180" />
                 </button>
-                <div className="absolute left-0 top-full pt-2 w-56 origin-top-left opacity-0 translate-y-2 pointer-events-none group-hover/drop:opacity-100 group-hover/drop:translate-y-0 group-hover/drop:pointer-events-auto transition-all duration-200 z-[100]">
+                <div
+                  className={`absolute left-0 top-full pt-2 w-56 origin-top-left transition-all duration-200 z-[100] ${
+                    activeDropdown === 'team'
+                      ? 'opacity-100 translate-y-0 pointer-events-auto'
+                      : 'opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto'
+                  }`}
+                >
                   <div className="rounded-2xl border border-warm-100 bg-white p-2 shadow-xl">
                     <Link
                       to="/team/clinical-associates"
@@ -148,7 +160,7 @@ export const Header: React.FC = () => {
               </Link>
 
               {/* Contact Us Dropdown */}
-              <div className="relative group/drop">
+              <div className="relative group">
                 <button
                   onClick={() => toggleDropdown('contact')}
                   className={`flex items-center gap-1 text-sm font-semibold transition-colors hover:text-primary-600 outline-none ${
@@ -158,9 +170,15 @@ export const Header: React.FC = () => {
                   aria-haspopup="true"
                 >
                   Contact Us
-                  <ChevronDown className="h-4 w-4 transition-transform group-hover/drop:rotate-180" />
+                  <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180" />
                 </button>
-                <div className="absolute right-0 top-full pt-2 w-56 origin-top-right opacity-0 translate-y-2 pointer-events-none group-hover/drop:opacity-100 group-hover/drop:translate-y-0 group-hover/drop:pointer-events-auto transition-all duration-200 z-[100]">
+                <div
+                  className={`absolute right-0 top-full pt-2 w-56 origin-top-right transition-all duration-200 z-[100] ${
+                    activeDropdown === 'contact'
+                      ? 'opacity-100 translate-y-0 pointer-events-auto'
+                      : 'opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto'
+                  }`}
+                >
                   <div className="rounded-2xl border border-warm-100 bg-white p-2 shadow-xl">
                     {contactLinks.map((link) => (
                       <Link
