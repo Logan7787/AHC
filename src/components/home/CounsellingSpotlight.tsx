@@ -11,7 +11,7 @@ export const CounsellingSpotlight: React.FC = () => {
           {/* Left Column: Details (7 cols) */}
           <AnimatedSection direction="right" className="lg:col-span-7 space-y-6 text-left">
             <div className="space-y-3">
-              <span className="inline-flex items-center gap-1 text-xs font-bold text-teal-600 uppercase tracking-widest bg-teal-50 border border-teal-100 rounded-full px-3 py-1">
+              <span className="inline-flex items-center gap-1 text-xs font-bold text-sky-600 uppercase tracking-widest bg-sky-50 border border-sky-100 rounded-full px-3 py-1">
                 <Sparkles className="h-3 w-3" />
                 Mental Health Counselling
               </span>
@@ -26,7 +26,7 @@ export const CounsellingSpotlight: React.FC = () => {
             {/* Bullet List */}
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <div className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-teal-100 text-teal-700 mt-1">
+                <div className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-sky-100 text-sky-700 mt-1">
                   <Brain className="h-3 w-3" />
                 </div>
                 <div>
@@ -35,7 +35,7 @@ export const CounsellingSpotlight: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <div className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-teal-100 text-teal-700 mt-1">
+                <div className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-sky-100 text-sky-700 mt-1">
                   <Brain className="h-3 w-3" />
                 </div>
                 <div>
@@ -66,14 +66,14 @@ export const CounsellingSpotlight: React.FC = () => {
                   alt="Dr. Anand Krishnan - Clinical Neuropsychologist"
                   className="h-28 w-28 rounded-full object-cover border-4 border-warm-50 shadow-md"
                 />
-                <span className="absolute bottom-0 right-0 rounded-full bg-teal-500 px-2 py-0.5 text-[9px] font-bold text-white uppercase tracking-wider shadow">
+                <span className="absolute bottom-0 right-0 rounded-full bg-sky-500 px-2 py-0.5 text-[9px] font-bold text-white uppercase tracking-wider shadow">
                   Online/Home
                 </span>
               </div>
               {/* Name & Bio */}
               <div className="space-y-1">
                 <h4 className="text-lg font-bold text-warm-900 font-serif">Dr. Anand Krishnan</h4>
-                <p className="text-xs text-teal-600 font-semibold uppercase tracking-wider">
+                <p className="text-xs text-sky-600 font-semibold uppercase tracking-wider">
                   PhD, Clinical Neuropsychologist
                 </p>
                 <div className="flex items-center justify-center gap-1 text-[11px] text-warm-500 py-1">

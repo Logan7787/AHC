@@ -134,7 +134,7 @@ export const Membership: React.FC = () => {
                   <ul className="space-y-2 border-t border-warm-100 pt-4 text-xs text-warm-600">
                     {tier.features.map((feature, fIdx) => (
                       <li key={fIdx} className="flex gap-2 items-start">
-                        <Check className="h-4 w-4 text-teal-600 shrink-0 mt-0.5" />
+                        <Check className="h-4 w-4 text-sky-600 shrink-0 mt-0.5" />
                         <span>{feature}</span>
                       </li>
                     ))}

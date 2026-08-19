@@ -39,7 +39,7 @@ export const ToastProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   return (
     <ToastContext.Provider value={{ showToast }}>
       {children}
-      <div className="fixed bottom-6 right-6 z-[9999] flex flex-col gap-2 max-w-sm w-full p-4 md:p-0">
+      <div className="fixed bottom-6 right-6 z-9999 flex flex-col gap-2 max-w-sm w-full p-4 md:p-0">
         <AnimatePresence>
           {toasts.map((toast) => (
             <motion.div
@@ -49,14 +49,14 @@ export const ToastProvider: React.FC<{ children: React.ReactNode }> = ({ childre
               exit={{ opacity: 0, scale: 0.95, transition: { duration: 0.2 } }}
               className={`flex items-start gap-3 rounded-xl p-4 shadow-xl border text-sm ${
                 toast.type === 'success'
-                  ? 'bg-teal-50 border-teal-200 text-teal-800'
+                  ? 'bg-sky-50 border-sky-200 text-sky-800'
                   : toast.type === 'error'
                   ? 'bg-rose-50 border-rose-200 text-rose-800'
                   : 'bg-warm-100 border-warm-200 text-warm-800'
               }`}
             >
               {toast.type === 'success' ? (
-                <CheckCircle className="h-5 w-5 text-teal-600 shrink-0 mt-0.5" />
+                <CheckCircle className="h-5 w-5 text-sky-600 shrink-0 mt-0.5" />
               ) : (
                 <AlertCircle className="h-5 w-5 text-rose-600 shrink-0 mt-0.5" />
               )}

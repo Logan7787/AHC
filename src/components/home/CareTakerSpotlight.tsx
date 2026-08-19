@@ -31,7 +31,7 @@ export const CareTakerSpotlight: React.FC = () => {
             </div>
             <div className="flex-1 flex flex-col justify-between space-y-4">
               <div className="space-y-2">
-                <div className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-teal-100 text-teal-700">
+                <div className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-sky-100 text-sky-700">
                   <Heart className="h-5 w-5" />
                 </div>
                 <h3 className="font-serif text-xl font-bold text-warm-900 leading-snug">

@@ -145,7 +145,7 @@ export const TeamPreview: React.FC = () => {
                     {member.qualification && (
                       <p className="text-[11px] font-bold text-warm-500">{member.qualification}</p>
                     )}
-                    <p className="text-[11px] font-semibold text-teal-600 uppercase tracking-wide">
+                    <p className="text-[11px] font-semibold text-sky-600 uppercase tracking-wide">
                       {member.specialty}
                     </p>
                   </div>

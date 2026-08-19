@@ -53,8 +53,8 @@ export const GoogleReviews: React.FC = () => {
             <p className="text-sm text-warm-600 leading-relaxed">
               Our patients and their families consistently rate us highly for nurse professionalism, caretakers patience, and physician clarity.
             </p>
-            <div className="flex items-center gap-1.5 text-xs text-teal-700 font-bold bg-teal-50 border border-teal-100 rounded-lg p-2.5 max-w-max">
-              <ShieldCheck className="h-4.5 w-4.5 text-teal-600" />
+            <div className="flex items-center gap-1.5 text-xs text-sky-700 font-bold bg-sky-50 border border-sky-100 rounded-lg p-2.5 max-w-max">
+              <ShieldCheck className="h-4.5 w-4.5 text-sky-600" />
               <span>100% HIPAA and patient safety compliant</span>
             </div>
           </AnimatedSection>

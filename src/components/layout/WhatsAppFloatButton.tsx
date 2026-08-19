@@ -6,7 +6,7 @@ export const WhatsAppFloatButton: React.FC = () => {
       href="https://api.whatsapp.com/send?phone=919943161027&text=Need%20Services"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-[99] flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-white shadow-xl transition-all hover:scale-110 active:scale-95 group focus:ring-2 focus:ring-emerald-400 focus:outline-none"
+      className="fixed bottom-6 right-6 z-99 flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-white shadow-xl transition-all hover:scale-110 active:scale-95 group focus:ring-2 focus:ring-emerald-400 focus:outline-none"
       aria-label="Chat with Ayusya Health Care on WhatsApp"
     >
       {/* Pulse rings */}

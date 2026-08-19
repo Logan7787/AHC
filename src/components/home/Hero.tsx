@@ -13,7 +13,7 @@ export const Hero: React.FC = () => {
           alt="Ayusya Health Care Warm Service"
           className="h-full w-full object-cover object-center opacity-30"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-warm-950 via-warm-900/90 to-transparent"></div>
+        <div className="absolute inset-0 bg-linear-to-r from-warm-950 via-warm-900/90 to-transparent"></div>
       </div>
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 text-left w-full">

@@ -28,7 +28,7 @@ export const BookNowModal: React.FC<BookNowModalProps> = ({ isOpen, onClose }) =
   return (
     <AnimatePresence>
       {isOpen && (
-        <div className="fixed inset-0 z-[1000] flex justify-end overflow-hidden">
+        <div className="fixed inset-0 z-1000 flex justify-end overflow-hidden">
           {/* Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}

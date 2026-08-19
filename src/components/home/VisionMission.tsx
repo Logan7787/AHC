@@ -11,7 +11,7 @@ export const VisionMission: React.FC = () => {
           {/* Card 1: Our Vision */}
           <AnimatedSection direction="up" delay={0} className="flex flex-col justify-between rounded-3xl bg-white p-8 shadow-sm border border-warm-200 text-left transition-transform hover:-translate-y-1 duration-300">
             <div className="space-y-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-teal-50 text-teal-600 border border-teal-100">
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-sky-50 text-sky-600 border border-sky-100">
                 <Eye className="h-6 w-6" />
               </div>
               <h3 className="font-serif text-2xl font-bold tracking-tight text-warm-900">

@@ -37,11 +37,11 @@ export const DoctorIntro: React.FC = () => {
               <img
                 src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80"
                 alt="Doctor consulting senior patient at home"
-                className="rounded-2xl w-full h-[350px] sm:h-[450px] object-cover"
+                className="rounded-2xl w-full h-87.5 sm:h-112.5 object-cover"
               />
             </div>
             {/* Small accent floating box */}
-            <div className="absolute -bottom-6 -right-6 hidden sm:flex items-center gap-3 rounded-2xl bg-primary-900 p-4 text-white shadow-xl max-w-[200px]">
+            <div className="absolute -bottom-6 -right-6 hidden sm:flex items-center gap-3 rounded-2xl bg-primary-900 p-4 text-white shadow-xl max-w-50">
               <Award className="h-10 w-10 text-primary-300 shrink-0" />
               <div className="text-left">
                 <p className="text-xs font-bold text-primary-300 uppercase tracking-wider">Trusted</p>

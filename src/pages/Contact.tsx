@@ -121,7 +121,7 @@ export const Contact: React.FC = () => {
           </div>
 
           {/* Google Maps embed */}
-          <AnimatedSection direction="up" className="rounded-3xl border border-warm-200 bg-white p-2 shadow-sm overflow-hidden h-[350px]">
+          <AnimatedSection direction="up" className="rounded-3xl border border-warm-200 bg-white p-2 shadow-sm overflow-hidden h-87.5">
             <iframe
               title="Ayusya Google Map Navigation"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.837894951478!2d80.23114981482279!3d13.04598179080753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52665e771480f7%3A0x6e24672e811c7501!2sT.%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"

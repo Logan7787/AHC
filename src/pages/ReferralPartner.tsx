@@ -96,7 +96,7 @@ export const ReferralPartner: React.FC = () => {
               <div className="space-y-4 text-xs text-warm-600 leading-relaxed">
                 <AnimatedSection direction="up" className="rounded-2xl border border-warm-200 bg-white p-4 shadow-xs space-y-2">
                   <h4 className="font-serif text-sm font-bold text-warm-950 flex items-center gap-1.5">
-                    <ShieldCheck className="h-4.5 w-4.5 text-teal-600" />
+                    <ShieldCheck className="h-4.5 w-4.5 text-sky-600" />
                     <span>Safe Patient Discharge</span>
                   </h4>
                   <p>

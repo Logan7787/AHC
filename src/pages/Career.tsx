@@ -170,7 +170,7 @@ export const Career: React.FC = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="flex-grow space-y-3">
+            <div className="grow space-y-3">
               <h3 className="font-serif text-xl font-bold text-warm-900">Why Work With Ayusya?</h3>
               <p className="text-xs sm:text-sm text-warm-600 leading-relaxed">
                 At Ayusya, we care deeply for our care staff as much as our patients. We provide fair compensation, health guidelines training, emergency medical insurance coverage templates, and respect for care services. If you are passionate about helping senior citizens or post-surgical patients, find our open roles.

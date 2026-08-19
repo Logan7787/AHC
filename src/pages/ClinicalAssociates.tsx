@@ -254,7 +254,7 @@ export const ClinicalAssociates: React.FC = () => {
                                 {member.qualification}
                               </p>
                             )}
-                            <p className="text-[11px] font-bold text-teal-600 uppercase tracking-wide">
+                            <p className="text-[11px] font-bold text-sky-600 uppercase tracking-wide">
                               {member.specialty}
                             </p>
                           </div>
@@ -334,7 +334,7 @@ export const ClinicalAssociates: React.FC = () => {
                     </div>
                     <div className="flex-1 flex flex-col justify-between space-y-4">
                       <div className="space-y-2">
-                        <span className="text-[10px] font-bold text-teal-600 uppercase tracking-widest block">
+                        <span className="text-[10px] font-bold text-sky-600 uppercase tracking-widest block">
                           Super-Specialty Network
                         </span>
                         <h3 className="font-serif text-xl font-bold text-warm-950 leading-tight">
@@ -373,14 +373,14 @@ export const ClinicalAssociates: React.FC = () => {
                 {/* Dr. A.R. Jagathraman Profile Box */}
                 <div className="rounded-3xl border border-warm-200 bg-white p-6 shadow-xs flex flex-col justify-between space-y-4">
                   <div className="space-y-2">
-                    <span className="rounded-lg bg-teal-50 px-2 py-0.5 text-[9px] font-bold text-teal-700 uppercase tracking-wider">
+                    <span className="rounded-lg bg-sky-50 px-2 py-0.5 text-[9px] font-bold text-sky-700 uppercase tracking-wider">
                       Senior Consultant
                     </span>
                     <h3 className="font-serif text-lg font-bold text-warm-950">
                       Dr. A.R. Jagathraman
                     </h3>
                     <p className="text-xs font-bold text-warm-500">M.B. M.S., Gen.M.Ch. Neuro FICS.</p>
-                    <p className="text-xs text-teal-600 font-bold uppercase tracking-wide">
+                    <p className="text-xs text-sky-600 font-bold uppercase tracking-wide">
                       Sr. Neuro Surgeon & Consultant
                     </p>
                     <p className="text-xs text-warm-600 leading-relaxed pt-2 border-t border-warm-100">
