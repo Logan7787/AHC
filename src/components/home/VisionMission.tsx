@@ -5,7 +5,7 @@ import { AnimatedSection } from '../shared/AnimatedSection';
 
 export const VisionMission: React.FC = () => {
   return (
-    <section className="py-16 bg-warm-50 border-y border-warm-200">
+    <section className="py-16 bg-sky-50/20 border-y border-sky-100/50 backdrop-blur-xs">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-2">
           {/* Card 1: Our Vision */}

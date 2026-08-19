@@ -98,7 +98,7 @@ export const ServicesGrid: React.FC = () => {
   };
 
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-16 md:py-24 bg-transparent">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         <AnimatedSection className="max-w-3xl mx-auto space-y-4 mb-12">
           <span className="text-xs font-bold text-primary-600 uppercase tracking-widest">

@@ -28,7 +28,7 @@ export const GoogleReviews: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 bg-warm-50/50 border-t border-warm-200">
+    <section className="py-16 bg-white/40 border-t border-sky-100/40 backdrop-blur-xs">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-12 items-center">
           {/* Left Column: Aggregated Score (4 cols) */}

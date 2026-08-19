@@ -5,7 +5,7 @@ import { AnimatedSection } from '../shared/AnimatedSection';
 
 export const CounsellingSpotlight: React.FC = () => {
   return (
-    <section className="py-16 md:py-24 bg-warm-50/50">
+    <section className="py-16 md:py-24 bg-white/40 backdrop-blur-xs">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-12 items-center">
           {/* Left Column: Details (7 cols) */}

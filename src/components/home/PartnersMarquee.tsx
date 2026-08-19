@@ -32,7 +32,7 @@ export const PartnersMarquee: React.FC = () => {
   const marqueeItems = [...partners, ...partners, ...partners];
 
   return (
-    <section className="py-12 bg-white border-t border-warm-200 overflow-hidden">
+    <section className="py-12 bg-transparent border-t border-sky-100/40 overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         <p className="text-[10px] font-bold uppercase tracking-widest text-warm-400 mb-6">
           Clinical Partners & Hospital Networks

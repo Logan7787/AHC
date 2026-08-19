@@ -86,7 +86,7 @@ export const TeamPreview: React.FC = () => {
   }, []);
 
   return (
-    <section className="py-16 md:py-24 bg-warm-50/50">
+    <section className="py-16 md:py-24 bg-white/40 backdrop-blur-xs">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         <AnimatedSection className="max-w-3xl mx-auto space-y-4 mb-12">
           <span className="text-xs font-bold text-primary-600 uppercase tracking-widest">

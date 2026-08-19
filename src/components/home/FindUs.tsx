@@ -25,7 +25,7 @@ export const FindUs: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-warm-50 border-t border-warm-200">
+    <section className="py-16 md:py-24 bg-transparent border-t border-sky-100/40">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 items-start text-left">
           {/* Left Column: Office Details */}

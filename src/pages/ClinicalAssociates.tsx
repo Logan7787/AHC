@@ -160,7 +160,7 @@ export const ClinicalAssociates: React.FC = () => {
         />
       </Helmet>
 
-      <div className="flex-1 py-12 px-4 sm:px-6 lg:px-8 bg-warm-50">
+      <div className="flex-1 py-12 px-4 sm:px-6 lg:px-8 bg-transparent">
         <div className="mx-auto max-w-6xl space-y-12">
           {/* Header */}
           <div className="text-center max-w-3xl mx-auto space-y-4">

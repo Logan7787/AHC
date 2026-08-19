@@ -159,7 +159,7 @@ export const ServiceDetailPage: React.FC = () => {
   // If service is not found in database and we don't have fallback details, show 404
   if (!service && !fallback) {
     return (
-      <div className="flex-1 py-16 px-4 text-center bg-warm-50">
+      <div className="flex-1 py-16 px-4 text-center bg-transparent">
         <div className="max-w-md mx-auto space-y-4">
           <h2 className="font-serif text-2xl font-bold text-warm-900">Service Not Found</h2>
           <p className="text-sm text-warm-600">The service you are looking for does not exist or has been moved.</p>
@@ -196,7 +196,7 @@ export const ServiceDetailPage: React.FC = () => {
         <meta name="description" content={displayShort} />
       </Helmet>
 
-      <div className="flex-1 bg-warm-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="flex-1 bg-transparent py-12 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl space-y-8 text-left">
           {/* Back link */}
           <Link

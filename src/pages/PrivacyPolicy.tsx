@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 
 export const PrivacyPolicy: React.FC = () => {
   return (
-    <div className="flex-1 py-12 px-4 sm:px-6 lg:px-8 bg-warm-50">
+    <div className="flex-1 py-12 px-4 sm:px-6 lg:px-8 bg-transparent">
       <Helmet>
         <title>Privacy Policy | Ayusya Health Care</title>
         <meta name="description" content="Ayusya Health Care Privacy Policy." />

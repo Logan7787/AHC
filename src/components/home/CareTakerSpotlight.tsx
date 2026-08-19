@@ -5,7 +5,7 @@ import { AnimatedSection } from '../shared/AnimatedSection';
 
 export const CareTakerSpotlight: React.FC = () => {
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-16 md:py-24 bg-transparent">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         <AnimatedSection className="max-w-3xl mx-auto space-y-4 mb-12">
           <span className="text-xs font-bold text-primary-600 uppercase tracking-widest">
@@ -21,7 +21,7 @@ export const CareTakerSpotlight: React.FC = () => {
 
         <div className="grid gap-8 md:grid-cols-2">
           {/* Card 1: Elderly Care Services */}
-          <AnimatedSection direction="up" className="group relative overflow-hidden rounded-3xl border border-warm-200 bg-warm-50/50 p-6 sm:p-8 text-left shadow-xs transition-shadow hover:shadow-lg duration-300 flex flex-col sm:flex-row gap-6">
+          <AnimatedSection direction="up" className="group relative overflow-hidden rounded-3xl border border-sky-100/50 bg-white/60 p-6 sm:p-8 text-left shadow-xs transition-shadow hover:shadow-lg duration-300 flex flex-col sm:flex-row gap-6 backdrop-blur-xs">
             <div className="w-full sm:w-2/5 overflow-hidden rounded-2xl h-44 bg-warm-200">
               <img
                 src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=400&q=80"
@@ -54,7 +54,7 @@ export const CareTakerSpotlight: React.FC = () => {
           </AnimatedSection>
 
           {/* Card 2: Post Surgical Care Services */}
-          <AnimatedSection direction="up" delay={0.1} className="group relative overflow-hidden rounded-3xl border border-warm-200 bg-warm-50/50 p-6 sm:p-8 text-left shadow-xs transition-shadow hover:shadow-lg duration-300 flex flex-col sm:flex-row gap-6">
+          <AnimatedSection direction="up" delay={0.1} className="group relative overflow-hidden rounded-3xl border border-sky-100/50 bg-white/60 p-6 sm:p-8 text-left shadow-xs transition-shadow hover:shadow-lg duration-300 flex flex-col sm:flex-row gap-6 backdrop-blur-xs">
             <div className="w-full sm:w-2/5 overflow-hidden rounded-2xl h-44 bg-warm-200">
               <img
                 src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=400&q=80"
