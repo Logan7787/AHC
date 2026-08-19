@@ -37,7 +37,7 @@ export const Header: React.FC = () => {
 
   return (
     <>
-      <header className="sticky top-0 z-[50] w-full border-b border-warm-200 bg-white/95 backdrop-blur-md transition-shadow duration-300 hover:shadow-md">
+      <header className="sticky top-0 z-50 w-full border-b border-warm-200 bg-white/95 backdrop-blur-md transition-shadow duration-300 hover:shadow-md">
         {/* Top Info Bar */}
         <div className="bg-primary-900 px-4 py-2 text-xs font-medium text-primary-50 sm:px-6 md:px-8 flex flex-col sm:flex-row items-center justify-between gap-1">
           <div className="flex items-center gap-1.5">
@@ -95,7 +95,7 @@ export const Header: React.FC = () => {
                   <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180" />
                 </button>
                 <div
-                  className={`absolute left-0 top-full pt-2 w-64 origin-top-left transition-all duration-200 z-[100] ${
+                  className={`absolute left-0 top-full pt-2 w-64 origin-top-left transition-all duration-200 z-100 ${
                     activeDropdown === 'services'
                       ? 'opacity-100 translate-y-0 pointer-events-auto'
                       : 'opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto'
@@ -131,7 +131,7 @@ export const Header: React.FC = () => {
                   <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180" />
                 </button>
                 <div
-                  className={`absolute left-0 top-full pt-2 w-56 origin-top-left transition-all duration-200 z-[100] ${
+                  className={`absolute left-0 top-full pt-2 w-56 origin-top-left transition-all duration-200 z-100 ${
                     activeDropdown === 'team'
                       ? 'opacity-100 translate-y-0 pointer-events-auto'
                       : 'opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto'
@@ -173,7 +173,7 @@ export const Header: React.FC = () => {
                   <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180" />
                 </button>
                 <div
-                  className={`absolute right-0 top-full pt-2 w-56 origin-top-right transition-all duration-200 z-[100] ${
+                  className={`absolute right-0 top-full pt-2 w-56 origin-top-right transition-all duration-200 z-100 ${
                     activeDropdown === 'contact'
                       ? 'opacity-100 translate-y-0 pointer-events-auto'
                       : 'opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto'
